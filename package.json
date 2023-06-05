@@ -2,13 +2,6 @@
   "name": "@giogaspa/fastify-multitenant-cli",
   "version": "0.1.1",
   "description": "Fastify multitenant CLI",
-  "main": "cli.js",
-  "bin": {
-    "multitenant": "./cli.js"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "Gioacchino Gasparella",
   "license": "MIT",
   "keywords": [
@@ -16,6 +9,17 @@
     "cli",
     "multi-tenant"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giogaspa/fastify-multitenant-cli.git"
+  },
+  "main": "cli.js",
+  "bin": {
+    "multitenant": "./cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "chalk": "^4.1.2",
     "commist": "^3.2.0",

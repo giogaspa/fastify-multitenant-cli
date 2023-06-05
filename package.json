@@ -1,6 +1,6 @@
 {
   "name": "@giogaspa/fastify-multitenant-cli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Fastify multitenant CLI",
   "main": "cli.js",
   "bin": {

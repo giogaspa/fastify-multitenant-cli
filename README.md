@@ -2,6 +2,13 @@
 
 Command line tools for Fastify Multitenant Plugin.
 
+---
+**NOTE**
+
+This is a work in progress, please look at the develop branch for ongoing development.
+
+---
+
 ## Install
 ```bash
 npm install @giogaspa/fastify-multitenant-cli --global

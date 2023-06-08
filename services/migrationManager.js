@@ -52,7 +52,7 @@ async function makeMigrationManagerFor(db, folder) {
             await migration.up(db);
             await save(migration, db);
         } catch (error) {
-            log('error', { error });
+            log('error', error.message);
         }
     }
 

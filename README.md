@@ -10,8 +10,16 @@ This is a work in progress, please look at the develop branch for ongoing develo
 
 ## Install
 
-```bash
+Using npm:
+
+```shell
 npm install @giogaspa/fastify-multitenant-cli --global
+```
+
+Using yarn:
+
+``` shell
+yarn global add @giogaspa/fastify-multitenant-cli
 ```
 
 ## Usage
